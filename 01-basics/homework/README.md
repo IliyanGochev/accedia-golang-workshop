@@ -243,7 +243,7 @@ The uncensored message
 <tbody>
   <tr>
     <td>*h*s *s v*ry *tr*ng*<br>Tiiesae</td>
-    <td>2</td>
+    <td>This is very strange</td>
   </tr>
    <tr>
     <td>A**Z*N*<br>MAIG</td>
