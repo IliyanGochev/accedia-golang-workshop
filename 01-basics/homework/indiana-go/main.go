@@ -7,23 +7,17 @@ import (
 )
 
 func decode_seq(seq string) {
-
-	var pos = 0
-	var neg = 0
+	var sum = 0
 	splits := strings.Split(seq, " ")
 	for _, value := range splits {
 		intval, _ := strconv.Atoi(value)
-		if intval >= 0 {
-			pos = pos + intval
-		} else {
-			neg = neg + intval
-		}
+		sum = sum + intval
 	}
 
-	if pos+neg == 0 {
+	if sum == 0 {
 		fmt.Println("Yes")
 	} else {
-		fmt.Println(pos - (-neg))
+		fmt.Println(sum)
 	}
 }
 
